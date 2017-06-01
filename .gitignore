@@ -46,5 +46,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# sass-cache
-.sass-cache
+# Igonre .sass-cache file
+/.sass-cache
