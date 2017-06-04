@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 240px, 240px;
+  background-color: $background-color_grid-wrapper;
+}
+.grid-box {
+  @include border-radius(10px);
+  background-color: orange;
+
+}
