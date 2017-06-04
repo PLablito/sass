@@ -1,2 +1,9 @@
 $fontSize-small: 33px;
 $background-color-first: rgb(255,110,255);
+$background-color_grid-wrapper: rgb(28,26,29);
+$mixin border-radius ($border-radius_grid-box){
+  -webkit-border-radius: $border-radius_grid-box;
+  -moz-border-radius: $border-radius_grid-box;
+  -ms-border-radius: $border-radius_grid-box;
+  border-radius: $border-radius_grid-box;
+}
