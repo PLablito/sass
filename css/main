@@ -6,11 +6,11 @@ Error: Invalid CSS after "$mixin ": expected ":", was "border-radius (..."
 1: $fontSize-small: 33px;
 2: $background-color-first: rgb(255,110,255);
 3: $background-color_grid-wrapper: rgb(28,26,29);
-4: $mixin border-radius ($border-radius_grid-box){
-5:   -webkit-border-radius: $border-radius_grid-box;
-6:   -moz-border-radius: $border-radius_grid-box;
-7:   -ms-border-radius: $border-radius_grid-box;
-8:   border-radius: $border-radius_grid-box;
+4: $mixin border-radius ($radius){
+5:   -webkit-border-radius: $radius;
+6:   -moz-border-radius: $radius;
+7:   -ms-border-radius: $radius;
+8:   border-radius: $radius;
 9: }
 
 Backtrace:
@@ -66,4 +66,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.24/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"$mixin \": expected \":\", was \"border-radius (...\"\A         on line 4 of sass/_config.scss\A         from line 2 of sass/main.scss\A \A 1: $fontSize-small: 33px;\A 2: $background-color-first: rgb(255,110,255);\A 3: $background-color_grid-wrapper: rgb(28,26,29);\A 4: $mixin border-radius ($border-radius_grid-box){\A 5:   -webkit-border-radius: $border-radius_grid-box;\A 6:   -moz-border-radius: $border-radius_grid-box;\A 7:   -ms-border-radius: $border-radius_grid-box;\A 8:   border-radius: $border-radius_grid-box;\A 9: }"; }
+  content: "Error: Invalid CSS after \"$mixin \": expected \":\", was \"border-radius (...\"\A         on line 4 of sass/_config.scss\A         from line 2 of sass/main.scss\A \A 1: $fontSize-small: 33px;\A 2: $background-color-first: rgb(255,110,255);\A 3: $background-color_grid-wrapper: rgb(28,26,29);\A 4: $mixin border-radius ($radius){\A 5:   -webkit-border-radius: $radius;\A 6:   -moz-border-radius: $radius;\A 7:   -ms-border-radius: $radius;\A 8:   border-radius: $radius;\A 9: }"; }
