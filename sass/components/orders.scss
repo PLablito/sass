@@ -1,0 +1,25 @@
+@import "../config";
+
+.orders {
+  background-color: rgb(255,255,255);
+  background-repeat: no-repeat;
+  position: relative;
+  }
+  .orders-chart {
+    position: absolute;
+    bottom: 52px;
+    left: 20px;
+  }
+  .orders-chart__title {
+    text-transform: uppercase;
+  }
+  .orders-chart__dropdown {
+    text-transform: uppercase;
+    color: rgb(27,221,219);
+  }
+  .orders-chart__circle-button {
+    border: 3px solid rgb(0, 0, 0);
+    width: 7px;
+    height: 7px;
+    @include border-radius (50%);
+  }
