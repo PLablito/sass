@@ -1,0 +1,30 @@
+@import "../config";
+
+
+.six {
+  display: flex;
+
+}
+.aa {
+flex-basis: 40px;
+}
+.raz {
+  background-color: blue;
+  flex-grow: 2;
+  flex-basis: 60px
+}
+.dwa {
+  background-color: green;
+
+  flex-grow: 1;
+}
+.trzy {
+  background-color: yellow;
+  flex-grow: 2;
+  flex-basis: 60px
+}
+.cztery {
+  background-color: black;
+
+  flex-grow: 1;
+}

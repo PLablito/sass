@@ -1,0 +1,63 @@
+@import "../config";
+
+.visits {
+  background-image: url("../images/visits/visits_map.jpg");
+  position: relative;
+  text-transform: uppercase;
+  font-size: $font-size-title;
+  font-weight: $font-weight-medium;
+}
+
+.visits__title {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+
+.visits__last_weeks {
+  margin-left: 10px;
+  color: rgb(34,89,228);
+}
+
+.visits__button {
+  width: 7px;
+  height: 7px;
+  border: 3px solid rgb(0,0,0);
+  @include border-radius(50%);
+  cursor: pointer;
+  position: absolute;
+  top: 17px;
+  right: 16px;
+}
+
+.visits__footer {
+  position: absolute;
+  left: 23px;
+  bottom: 23px;
+  display: flex;
+}
+
+.visits__footer__2, .visits__footer__4 {
+  color: rgb(34,89,228);
+}
+
+
+
+.aa {
+  width: 120px;
+}
+
+.visits__footer__1 {
+  flex-grow: 1;
+
+
+}
+.visits__footer__2 {
+  flex-grow: 10;
+}
+.visits__footer__3 {
+  flex-grow: 1;
+}
+.visits__footer__4 {
+  flex-grow: 1;
+}

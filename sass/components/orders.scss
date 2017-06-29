@@ -12,14 +12,66 @@
   }
   .orders-chart__title {
     text-transform: uppercase;
+    font-family: $font-family;
+    font-size:$font-size-title;
+    letter-spacing: 1.5;
+    font-weight: 900;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
   }
   .orders-chart__dropdown {
     text-transform: uppercase;
     color: rgb(27,221,219);
+    font-family: $font-family;
+    font-weight: 900;
+    letter-spacing: 1.5;
+    margin-left: 10px;
   }
   .orders-chart__circle-button {
     border: 3px solid rgb(0, 0, 0);
     width: 7px;
     height: 7px;
     @include border-radius (50%);
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  .orders-chart__open-icon {
+  margin-left: 4px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  }
+
+  .orders__footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .footer__text {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .footer__tax {
+    margin-left: 45px;
+  }
+
+  .footer__orders {
+    margin-left: 165px;
+  }
+  .orders__footer__numbers {
+    color: rgb(27,221,219);
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 0.9em;
+    letter-spacing: 1.5;
   }

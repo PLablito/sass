@@ -1,0 +1,34 @@
+@import "../config.scss";
+
+.page-views {
+  background-color: rgb(254,197,46);
+  position: relative;
+
+.page-views__title {
+  font-size: $font-size-title;
+  text-transform: uppercase;
+  color: rgb(0,0,0);
+  font-weight: $font-weight-medium;
+  letter-spacing: $letter-spacing-title;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.page-views__button {
+  width: 7px;
+  height: 7px;
+  @include border-radius(50%);
+  border: 3px solid rgb(0,0,0);
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  cursor: pointer;
+}
+.page-views__number {
+  font-size: $font-size-big-numbers;
+  color: rgb(0,0,0);
+  position: absolute;
+  top: 43px;
+  left: 20px;
+}
+}

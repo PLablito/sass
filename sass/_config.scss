@@ -1,5 +1,3 @@
-$fontSize-small: 33px;
-$background-color-first: rgb(255,110,255);
 $background-color_grid-wrapper: rgb(28,26,29);
 @mixin border-radius($radius) {
 -webkit-border-radius: $radius;
@@ -8,3 +6,8 @@ $background-color_grid-wrapper: rgb(28,26,29);
 border-radius: $radius;
 }
 $background-color-default: rgb(28,26,29);
+$font-family: "Montserrat";
+$font-size-title: 0.8em;
+$font-weight-medium: 600;
+$letter-spacing-title: 1.1;
+$font-size-big-numbers: 2.3em;

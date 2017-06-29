@@ -2,4 +2,62 @@
 
 .new-users {
   background-color: rgb(34,89,228);
+  position: relative;
+}
+.new-users__title {
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+  font-size: $font-size-title;
+  font-weight: $font-weight-medium;
+  letter-spacing: $letter-spacing-title;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.new-users__button {
+  border: 3px solid rgb(255,255,255);
+  @include border-radius(50%);
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.new-users__number {
+  font-size: $font-size-big-numbers;
+  color: rgb(255,255,255);
+  position: absolute;
+  top: 43px;
+  left: 20px;
+
+}
+.new-users__percentages {
+  font-size: 0.3em;
+  color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 4px;
+  margin-left: 5px;
+
+}
+
+.progress {
+  width: 100%;
+  height:5px;
+}
+
+.new-users__progress-wrap {
+  width:40%;
+
+}
+
+.new-users__progress {
+  height: 5px;
+  position: relative;
+  background-color: rgb(255,255,255);
+  @include border-radius(25px);
+  padding-left: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 }
