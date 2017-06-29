@@ -341,7 +341,8 @@ body {
   right: 16px; }
 
 .visits__footer {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .visits__footer__2, .visits__footer__4 {
   color: #2259e4; }
