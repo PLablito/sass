@@ -2,16 +2,17 @@
 
 .visits {
   background-image: url("../images/visits/visits_map.jpg");
-  position: relative;
   text-transform: uppercase;
   font-size: $font-size-title;
   font-weight: $font-weight-medium;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
 }
 
 .visits__title {
-  position: absolute;
-  top: 17px;
-  left: 20px;
+
 }
 
 .visits__last_weeks {
@@ -31,21 +32,15 @@
 }
 
 .visits__footer {
-  position: absolute;
-  left: 23px;
-  bottom: 23px;
   display: flex;
 }
+
 
 .visits__footer__2, .visits__footer__4 {
   color: rgb(34,89,228);
 }
 
 
-
-.aa {
-  width: 120px;
-}
 
 .visits__footer__1 {
   flex-grow: 1;

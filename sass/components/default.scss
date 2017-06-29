@@ -1,6 +1,10 @@
 @import "../config";
 
 body {
-background-color: $background-color-default;
-font-family: $font-family;
+    background-color: $background-color-default;
+    font-family: $font-family;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
 }
